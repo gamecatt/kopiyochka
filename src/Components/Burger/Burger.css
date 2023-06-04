@@ -1,0 +1,81 @@
+.burger-menu {
+  width: 40px;
+  height: 30px;
+  border: 0px;
+  cursor: pointer;
+  background-image: url("/public/burger-icon.svg");
+}
+.menu-items {
+  position: absolute;
+  z-index: 100;
+  top: 166px;
+  left: 0px;
+}
+
+.menu-items > ul {
+  width: 300px;
+  height: 397px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-items > ul > li.active {
+  background: rgba(251, 227, 18, 0.7);
+  border-radius: 10px;
+  padding-left: 75px !important;
+}
+.menu-items > ul > li.active > a {
+  font-weight: 500;
+}
+
+.menu-items > ul > li:hover {
+  text-decoration-line: underline;
+}
+.menu-items > ul > li {
+  width: 300px;
+  height: 35px;
+  display: flex;
+  padding-left: 53px;
+}
+.menu-items > ul > li,
+.menu-items > ul > li > a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  cursor: pointer;
+
+  color: #000000;
+  font-family: "Playfair Display", serif;
+}
+
+.menu-items > ul > li > a.dropdown::before {
+  content: "";
+  position: relative;
+  display: block;
+  right: 0px;
+  width: 10px;
+  height: 10px;
+}
+.dropdown-menu {
+  position: absolute;
+  right: -100px;
+  width: 280px;
+  height: 230px;
+  padding-block: 20px;
+  padding-inline: 10px;
+}
+.dropdown-menu > li > a {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}

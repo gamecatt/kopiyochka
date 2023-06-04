@@ -1,0 +1,19 @@
+.assortment {
+  width: 100%;
+  height: calc(100vh - 190px);
+  padding-top: 130px;
+  padding-inline: 113px;
+  padding-bottom: 78px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  background: rgb(205, 188, 139);
+  background: linear-gradient(
+    90deg,
+    rgba(205, 188, 139, 1) 0%,
+    rgba(200, 168, 0, 0.469625350140056) 47%,
+    rgba(248, 229, 65, 1) 100%
+  );
+}

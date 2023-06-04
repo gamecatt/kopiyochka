@@ -1,0 +1,36 @@
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titles h2 {
+  color: rgba(0, 0, 0, 0.75);
+  margin: 0;
+}
+
+.titles > h2:first-child {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+}
+.titles > h2:last-child {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43px;
+}
+
+.titles > h2:last-child > b {
+  color: #000000;
+}

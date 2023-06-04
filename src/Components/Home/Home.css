@@ -1,0 +1,95 @@
+.Home {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  width: 100%;
+  height: 914px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coins {
+  position: relative;
+  width: 934px;
+  height: 914px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("/public/Img/coins.png") no-repeat rgba(251, 227, 18, 0.79);
+}
+.coins > .deco1 {
+  position: absolute;
+  z-index: 1;
+  left: -93px;
+  top: 0px;
+  height: 562px;
+  width: 824px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 0px;
+}
+.coins > .deco2 {
+  position: absolute;
+  z-index: 1;
+  right: -93px;
+  bottom: 0px;
+  height: 562px;
+  width: 824px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 0px;
+}
+.coins > .main-title {
+  z-index: 2;
+  width: 390px;
+  height: 130px;
+  text-align: center;
+  font-family: "Source Code Pro", serif;
+
+  position: absolute;
+  border: 1px #000 solid;
+  border-right: 0px;
+  border-left: 0px;
+}
+.coins > .main-title > h1,
+.coins > .main-title > h2 {
+  margin: 0;
+}
+.coins > .main-title > h1 {
+  line-height: 65px;
+  font-size: 52px;
+  font-weight: 400;
+}
+.coins > .main-title > h2 {
+  line-height: 33px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.coins > .action-btn {
+  position: absolute;
+  bottom: 146px;
+  width: 212px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-family: "Source Code Pro", serif;
+
+  z-index: 2;
+}
+
+.coins > .action-btn > .transition-btn {
+  margin-top: 10px;
+  width: 45px;
+  height: 38px;
+  background: url("/public/Img/transition-icon.svg") rgba(251, 227, 18, 1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 25px;
+}

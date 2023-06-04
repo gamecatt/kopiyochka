@@ -1,0 +1,48 @@
+.Contact {
+  width: 100%;
+  height: calc(100vh - 190px);
+
+  padding-right: 50px;
+  display: flex;
+}
+
+.Contact .Design {
+  width: 50%;
+  background-image: url("/public/Img/contact-bg.jpg");
+  background-size: cover;
+  background-position: -260px 0;
+  background-repeat: no-repeat;
+}
+.Contact > .form {
+  padding-inline-start: 100px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Contact > .form > input {
+  width: 60%;
+  height: 50px;
+  margin-bottom: 25px;
+  border: none;
+  background-color: #1c8ba63b;
+  padding: 5px;
+  font-size: 20px;
+}
+.Contact > .form > button {
+  background-color: #f9e956;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+}
+
+.Contact > .form > h1 {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+}

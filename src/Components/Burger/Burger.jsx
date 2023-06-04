@@ -66,7 +66,7 @@ const MenuContent = () => {
           <Link to="/promotions">Акції</Link>
         </li>
         <li>
-          <Link to="/contacts">Контакти</Link>
+          <Link to="/contact">Контакти</Link>
         </li>
         <li>
           <Link to="/change">Обмін і повернення</Link>

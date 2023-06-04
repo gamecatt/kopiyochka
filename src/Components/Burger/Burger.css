@@ -64,18 +64,48 @@
   width: 10px;
   height: 10px;
 }
+
 .dropdown-menu {
+  list-style-type: none;
+  background: rgba(237, 232, 198, 0.4);
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
   position: absolute;
-  right: -100px;
+  right: -200px;
   width: 280px;
   height: 230px;
   padding-block: 20px;
   padding-inline: 10px;
+  border: rgba(0, 0, 0, 0.5) 1px solid;
+  border-radius: 10px;
+}
+.dropdown-menu > .dropdown-header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 280px;
+  height: 20px;
+  background: rgba(250, 189, 71, 0.75);
+  border-radius: 10px;
+}
+.dropdown-menu > li {
+  width: 50%;
+  height: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .dropdown-menu > li > a {
+  text-decoration: none;
   font-family: "Source Code Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
+  text-align: center;
+  color: #000000;
 }

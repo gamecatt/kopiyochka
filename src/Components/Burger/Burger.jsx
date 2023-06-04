@@ -17,29 +17,44 @@ const MenuContent = () => {
           <Link className="dropdown" to="/assortment">
             Асортимент
             <ul className="dropdown-menu">
+              <div className="dropdown-header">
+                .arrow
+              </div>
               <li>
-                <Link />
-                Побутова хімія
+                <Link>Побутова хімія</Link>
               </li>
               <li>
-                <Link />
-                Сумки та гаманці
+                <Link>Сумки та гаманці</Link>
               </li>
               <li>
-                <Link />
-                Гігієнічні засоби
+                <Link>Гігієнічні засоби</Link>
               </li>
               <li>
-                <Link />
-                Електроприлади
+                <Link>Електроприлади</Link>
               </li>
               <li>
-                <Link />
-                Нижня білизна
+                <Link>Нижня білизна</Link>
               </li>
               <li>
-                <Link />
-                Кухонне приладдя
+                <Link>Кухонне приладдя</Link>
+              </li>
+              <li>
+                <Link>Косметика</Link>
+              </li>
+              <li>
+                <Link>Декор</Link>
+              </li>
+              <li>
+                <Link>Іграшки</Link>
+              </li>
+              <li>
+                <Link>Канцелярія</Link>
+              </li>
+              <li>
+                <Link>Гастрономія</Link>
+              </li>
+              <li>
+                <Link>Аксесуари</Link>
               </li>
             </ul>
           </Link>

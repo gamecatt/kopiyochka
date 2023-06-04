@@ -18,7 +18,7 @@ const MenuContent = () => {
             Асортимент
             <ul className="dropdown-menu">
               <div className="dropdown-header">
-                .arrow
+                <div className="arrow">▼</div>
               </div>
               <li>
                 <Link>Побутова хімія</Link>

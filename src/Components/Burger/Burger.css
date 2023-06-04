@@ -109,3 +109,9 @@
   text-align: center;
   color: #000000;
 }
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  font-size: 15px;
+}

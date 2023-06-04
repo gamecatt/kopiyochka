@@ -14,12 +14,13 @@
   background-repeat: no-repeat;
 }
 .Contact > .form {
+  position: relative;
   padding-inline-start: 100px;
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 .Contact > .form > input {
   width: 60%;
@@ -29,6 +30,9 @@
   background-color: #1c8ba63b;
   padding: 5px;
   font-size: 20px;
+  border-radius: 10px;
+  padding-left: 20px;
+  color: #000000a0;
 }
 .Contact > .form > button {
   background-color: #f9e956;
@@ -45,4 +49,24 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 43px;
+}
+.form > .icons {
+  position: absolute;
+  right: 0;
+  top: auto;
+}
+
+.form > .icons a.insta {
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-image: url("/public/Img/insta-icon.svg");
+  margin-bottom: 50px;
+}
+
+.form > .icons a.telegram {
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-image: url("/public/Img/telegram-icon.svg");
 }

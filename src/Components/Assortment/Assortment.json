@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Освіжувач повітря Glade 300 мл",
+    "stock": "в наявності",
+    "price": "49,50",
+    "url": "/img/products/prod-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Порошок пральний Gala XL",
+    "stock": "в наявності",
+    "price": "429,99",
+    "url": "/img/products/prod-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Гель для прання Pervol 3 л.",
+    "stock": "в наявності",
+    "price": "229,90",
+    "url": "/img/products/prod-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Засіб для миття посуду Fairy 500 мл",
+    "stock": "в наявності",
+    "price": "64,99",
+    "url": "/img/products/prod-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Засіб для миття вікон та стекла Clin 500 мл",
+    "stock": "в наявності",
+    "price": "70,50",
+    "url": "/img/products/prod-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Засіб для чищення унітазу 500 мл",
+    "stock": "в наявності",
+    "price": "114,79",
+    "url": "/img/products/prod-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Губки кухонні 5 шт",
+    "stock": "в наявності",
+    "price": "40,70",
+    "url": "/img/products/prod-7.png"
+  },
+  {
+    "id": 8,
+    "name": "Засіб для виведення плям Vanish 880 г",
+    "stock": "в наявності",
+    "price": "529,50",
+    "url": "/img/products/prod-8.png"
+  }
+]

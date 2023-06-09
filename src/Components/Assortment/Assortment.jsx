@@ -1,18 +1,14 @@
 import React from "react";
 import "./Assortment.css";
-import {ProductCard} from "./ProductCard/ProductCard";
+import jsonData from './Assortment.json';
+import {ProductCard} from "./ProductCard/ProductCard.jsx";
 
 function Assortment() {
   return (
     <div className="assortment">
-      <ProductCard/>
-      <ProductCard/>
-      <ProductCard/>
-      <ProductCard/>
-      <ProductCard/>
-      <ProductCard/>
-      <ProductCard/>
-      <ProductCard/>
+      {jsonData.map((item) => (
+        <ProductCard key={item.id} data={item} />
+      ))}
     </div>
   );
 }

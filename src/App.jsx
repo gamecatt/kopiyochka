@@ -2,11 +2,11 @@ import React from "react";
 import "./App.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { BurgerMenu } from "./Components/Burger/Burger";
-import { HeaderContent } from "./Components/HeaderContent/HeaderContent";
-import { Assortment } from "./Components/Assortment/Assortment";
-import { Home } from "./Components/Home/Home";
-import { Contact } from "./Components/Contacts/Contact";
+import { BurgerMenu } from "./Components/Burger/Burger.jsx";
+import { HeaderContent } from "./Components/HeaderContent/HeaderContent.jsx";
+import { Assortment } from "./Components/Assortment/Assortment.jsx";
+import { Home } from "./Components/Home/Home.jsx";
+import { Contact } from "./Components/Contacts/Contact.jsx";
 
 const News = () => <h1>News</h1>;
 const Change = () => <h1>Change</h1>;

@@ -1,7 +1,8 @@
 .product-card {
   width: 290px;
   height: 290px;
-  margin-inline: 50px;
+  margin-inline-end: 100px;
+  margin-block-end: 100px;
   background-color: #fff;
   position: relative;
 
@@ -9,6 +10,11 @@
   flex-direction: column;
   align-items: center;
 }
+
+.product-card:nth-child(4n) {
+  margin-inline-end: 0px;
+}
+
 .product-card > .label {
   position: absolute;
   width: 114px;

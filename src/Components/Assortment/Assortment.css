@@ -6,8 +6,8 @@
   padding-bottom: 78px;
 
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
 
   background: rgb(205, 188, 139);
   background: linear-gradient(
@@ -17,3 +17,17 @@
     rgba(248, 229, 65, 1) 100%
   );
 }
+.products {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1460px;
+}
+
+.action-panel {
+  width: 112px;
+  height: 698px;
+  background-color: #fff;
+}
+
+/* 112 698 */

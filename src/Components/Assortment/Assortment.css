@@ -28,6 +28,74 @@
   width: 112px;
   height: 698px;
   background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-/* 112 698 */
+.action-panel > .action-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.action-panel > .action-btn > .label {
+  position: absolute;
+  margin: 0px;
+  bottom: -12px;
+  left: 0px;
+  width: 60px;
+
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+}
+.action-panel > .cart-btn > .label {
+}
+.action-panel > .likes-btn > .label {
+  width: 25px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  right: -10px;
+  bottom: 0px;
+  left: auto;
+  background: rgba(255, 181, 38, 1);
+  border-radius: 10px;
+  text-align: center;
+}
+.action-panel > .profile-btn > .label {
+  text-align: center;
+  width: 52px;
+  height: 13px;
+  right: auto;
+  left: auto;
+  bottom: -5px;
+}
+.action-panel > .discount-btn > .label {
+  bottom: -7px;
+}
+
+.action-panel > .cart-btn {
+  background-image: url("/public/Img/shopping-cart-icon.svg");
+  background-size: 40px;
+}
+.action-panel > .likes-btn {
+  background-image: url("/public/Img/heart-icon.svg");
+  background-size: 40px;
+}
+.action-panel > .profile-btn {
+  width: 52px;
+  height: 52px;
+  background-image: url("/public/Img/profile-icon.svg");
+  background-size: 52px;
+}
+.action-panel > .discount-btn {
+  width: 52px;
+  height: 52px;
+  background-image: url("/public/Img/sale-icon.svg");
+  background-size: 52px;
+}

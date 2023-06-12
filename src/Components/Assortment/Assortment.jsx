@@ -12,10 +12,10 @@ function Assortment() {
       ))}
       </div>
       <div className="action-panel">
-        <div className="some-btn">icon-cart</div>
-        <div className="some-btn">icon-likes</div>
-        <div className="some-btn">icon-profile</div>
-        <div className="some-btn">icon-discount</div>
+        <div className="cart-btn action-btn"><p className="label">456 грн</p></div>
+        <div className="likes-btn action-btn"><p className="label">7</p></div>
+        <div className="profile-btn action-btn"><p className="label">Увійти</p></div>
+        <div className="discount-btn action-btn"><p className="label">Мої знижки</p></div>
       </div>
     </div>
   );

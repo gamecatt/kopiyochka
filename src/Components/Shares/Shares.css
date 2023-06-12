@@ -1,0 +1,37 @@
+.Shares {
+  width: 100%;
+  height: calc(100vh - 190px);
+  padding-block-start: 70px;
+  padding-inline: 91px;
+}
+
+.Shares > .block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Shares > .block > .card {
+  width: 481px;
+  height: 458px;
+  background: #e7e0d1;
+}
+.Shares > .block > .card > .row {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Shares > .block > .card > .row.reverse {
+  flex-direction: row-reverse;
+}
+.Shares > .block > .card > .row > p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}

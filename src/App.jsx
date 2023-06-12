@@ -7,10 +7,10 @@ import { HeaderContent } from "./Components/HeaderContent/HeaderContent.jsx";
 import { Assortment } from "./Components/Assortment/Assortment.jsx";
 import { Home } from "./Components/Home/Home.jsx";
 import { Contact } from "./Components/Contacts/Contact.jsx";
+import { Shares } from "./Components/Shares/Shares";
 
 const News = () => <h1>News</h1>;
 const Change = () => <h1>Change</h1>;
-const Promotions = () => <h1>Promotions</h1>;
 const NotFound = () => <h1>404 Not Found</h1>;
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/assortment" element={<Assortment />} />
-          <Route path="/promotions" element={<Promotions />} />
+          <Route path="/shares" element={<Shares />} />
           <Route path="/news" element={<News />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/change" element={<Change />} />

@@ -63,7 +63,7 @@ const MenuContent = () => {
           <Link to="/news">Новини</Link>
         </li>
         <li>
-          <Link to="/promotions">Акції</Link>
+          <Link to="/shares">Акції</Link>
         </li>
         <li>
           <Link to="/contact">Контакти</Link>
